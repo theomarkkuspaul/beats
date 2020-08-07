@@ -252,7 +252,7 @@ the new pipeline already works asynchronously by default.
 [[breaking-changes-single-output]]
 ==== Only one enabled output
 
-In versions prior to 6.0, you could enabled multiple outputs at the same time,
+In versions prior to 6.0, you could enable multiple outputs at the same time,
 but only of different types. For example, you were able to enable the
 Elasticsearch and Logstash outputs, but not two Logstash outputs. The drawback
 of enabling multiple outputs was that the Beats that wait for acknowledgments
